@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  margin: auto;
+  width: 50%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 35px;
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+  background: black;
+  width: 150px;
+  font-size: 17px;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  gap: 10px;
+  margin: 30px 0px;
+}
+
+.contact > img {
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 50px;
+  background-color: black;
+}
+
+.card {
+  margin: 20px 100px;
+  width: 50vh;
+  box-shadow: 7px 6px 28px -6px rgba(0, 0, 0, 0.58);
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.info {
+  text-align: center;
+  line-height: 0;
+  height: 50px;
+}
+
+@media only screen and (max-width: 426px) {
+  .profile {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+}
